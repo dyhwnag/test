@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cal form{
+  display: grid;
+  grid-template-columns: repeat(4, 65px);
+  grid-auto-rows: 65px;
+}
+
+.cal form input[type='text']{
+  grid-column: span 4;
+}
+
+.cal form .clear{
+  grid-column: span 2;
+}
